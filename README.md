@@ -1,5 +1,6 @@
 # AWS-CICD
 AWS continuous integration and continuous delivery
+![awscicd](https://github.com/Suresh-28/AWS-CICD/assets/111943013/c514d0e8-ce70-492b-8c14-1df04754cba3)
 
 
 # Continuous Integration
