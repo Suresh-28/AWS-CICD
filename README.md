@@ -4,13 +4,19 @@ AWS continuous integration and continuous delivery
 
 
 # Continuous Integration
-1. Goto code build and create build project [ add on name, description, source, runtime, image, service role, insert build spec, create.]
-2. Create new service role [add on codebuild,SSM,name,description,create.]
-3. Goto systems manager and open parameters store [add on docker username, password, registry url separetly.]
-4. Strat build.
-5. Goto Build project ,click on edit ,click on environment, click on override image, enable privileged,update.
-6. Now rebuild
-7. Create pipeline [add on name, service role, source, code build, project name, single build, create.]
+1. Create a repo in the github account.
+2. push the code into the repo.
+3. create docker file.
+4. create buildspec file.
+5. create appspec file.
+6. create requirements file.
+7. Goto code build and create build project [ add on name, description, source, runtime, image, service role, insert build spec, create.]
+8. Create new service role [add on codebuild,SSM,name,description,create.]
+9. Goto systems manager and open parameters store [add on docker username, password, registry url separetly.]
+10. Strat build.
+11. Goto Build project ,click on edit ,click on environment, click on override image, enable privileged,update.
+12. Now rebuild
+13. Create pipeline [add on name, service role, source, code build, project name, single build, create.]
 
 # Continuous Deployment
 1. Goto code deploy on console.
